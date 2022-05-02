@@ -45,9 +45,21 @@ function updateSquare(position){
 // }
 
 
-let Reset = document.getElementById("resetBnt")
 
 
-    function resetGame(){
-        
+let reset = document.getElementById("reset")
+
+
+function clear(){
+  
+        if(reset == onclick){
+             gameOver == true
+
+             return reset
+        }
+
+        console.log(gameOver)
     }
+
+clear()
+    
