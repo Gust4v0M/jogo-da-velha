@@ -46,20 +46,9 @@ function updateSquare(position){
 
 
 
+document.getElementById('reset').addEventListener('click', function(){
 
-let reset = document.getElementById("reset")
+    location.reload();
+    return false;
 
-
-function clear(){
-  
-        if(reset == onclick){
-             gameOver == true
-
-             return reset
-        }
-
-        console.log(gameOver)
-    }
-
-clear()
-    
+});
